@@ -1,0 +1,152 @@
+String in java:
+String is the class names for strings.
+It contains a sequence of characters.
+String->Object
+
+String are immutable in java->
+
+String in java are immutable:
+A string value once created,can not changed.
+if method is called on string object,it returns a new object and will not 
+modify the original object.
+
+All string literals are stored n String constant pool.
+if jvm finds a string literal,
+
+new operator->a new object is created on heap memory location.
+
+Imp.
+String ,StringBuffer ,StringBuilder.
+
+
+
+
+
+
+package javacore;
+
+import java.util.Scanner;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		
+		int[] numbers=new int[100];//creation of an array
+		numbers[0]=10;
+		numbers[1]=20;
+		numbers[2]=30;
+		numbers[3]=40;
+		numbers[4]=50;
+		
+		for(int i=0;i<5;i++) {
+			System.out.println(numbers[i]);//10 20 30 40 50
+		}
+
+	
+	}
+}
+package javacore;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Person {
+
+	public static void main(String[] args) {
+//	int [] numbers1= {1,2,3};
+//	int [] numbers2= {4,5,6};
+//	
+//	System.out.println(Arrays.equals(numbers1, numbers2));
+//	int[] numbers3= {1,2,3};
+//	System.out.println(Arrays.equals(numbers1, numbers3));
+		
+//	int rollNos[]= {12,5,7,9};
+//	//sort the rolls numbers
+//	Arrays.sort(rollNos);
+//	System.out.println(Arrays.toString(rollNos));
+		
+		
+		//create an array of object 
+//		Person[] persons=new Person[5];
+//		System.out.println(persons[0]);
+//		
+		
+
+	}
+}
+
+
+
+package javacore;
+
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		//Create a string //string are immutable in java
+//		String str1="Lavish";
+//		System.out.println(str1.concat("Jain").hashCode());
+//		System.out.println(str1.hashCode());
+//
+//		String s1="Lavish";
+//		String s4="Lavish";
+//		String s2=new String("Lavish");//created on heap memory
+//		String s3=new String("Kushal");
+//		
+
+//		System.out.println(s2.equals(s3));
+//		System.out.println(s2);
+//        System.out.println(s1);
+        
+//        System.out.println(s1.equals(s2));
+		
+//		String str=" Sohan  ";
+//		System.out.println(str.charAt(2));
+//		System.out.println(str.trim().length());
+		
+		
+		//String buffer mutable
+		
+//		StringBuffer sb=new StringBuffer("Krishna");
+//		sb.append(" Elango");
+//		System.out.println(sb);
+		
+		//String interal report object class
+		
+		
+//		Hello t=new Hello();
+//		Hello t1=new Hello();
+//		System.out.println(t1.toString());
+//		System.out.println(t.toString());
+		
+		
+//		String s1="LAVISH";
+//		String s2="KUSHAL";
+//		String s3="LAVISH";
+//		System.out.println(s1.equals(s2));//false
+//		System.out.println(s1.equals(s3));//true
+//		System.out.println(s3.equals(s2));//false
+//		System.out.println("ABHISHEK".equals("Abhishek"));//false
+//		System.out.println("lavish".equals("lavish"));//true
+//		System.out.println("LAVISH".equalsIgnoreCase("lavish"));//true
+//		
+		
+//		System.out.println(s1.compareTo(s2));
+//		System.out.println(s1.compareTo(s3));
+//		System.out.println(s2.compareTo(s3));//
+		
+		
+		
+		System.out.println("LAVISH".compareTo("LAVISH"));
+
+	}
+}
+
+
+
+
+
